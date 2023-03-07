@@ -1,0 +1,720 @@
+
+/**Extra small devices (portrait phones, less than 576px) */
+/**================================================== */
+@media (max-width: 575.98px) { 
+
+    .py_70{
+        padding: 30px 0;
+    }
+    .banner_top_14{
+        padding-top: 14px !important;
+    }
+
+    /** Header start */
+    .c_navbar{
+        font-family: 'montserrat-500';
+        line-height: 9px;
+    }
+
+    .c_nav_item a{
+        border-top: .2px solid transparent;
+        border-bottom: 2px solid transparent;
+    }
+    .c_nav_item a:hover {
+        border-top: .2px solid #ff8d00;
+        border-bottom: 2px solid #ff8d00;
+    }
+    .logo{
+        max-width: 70%;
+    }
+    .c_nav_item {
+        margin-left: 30px;
+        padding-left: 10px;
+        border-left: 8px solid #ff8d00;
+        border-left-style: double;
+    }
+    .toggle_btn svg[width]{
+        width: 35px;
+    }
+    .toggle_btn svg[height]{
+        height: 35px;
+    }
+    
+    
+    /** Back to top start */
+    .back_to_top svg {
+        height: 40px;
+        width: 40px;
+    }
+
+    /** Banner text */
+    .banner_text{
+        padding: 30px 0;
+    }
+    .banner_text h1 {
+        font-size: 24px;
+        padding: 17px 0;
+    }
+    .banner_text h2 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .banner_text p {
+        padding-right: 0;
+    }
+    .Banner_social {
+        margin-top: 0px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .align_center{
+        text-align: center;
+    }
+
+    /** Features start */
+    .common_tittle h1{
+        font-size: 32px;
+    }
+    .features_loadMore svg{
+        width: 20px !important;
+        height: 20px !important;
+        margin-left: -5px;
+    }
+    .features_wrap svg[width]{
+        width: 30px;
+    }
+    .features_wrap svg[height]{
+        height: 30px;
+    }
+
+    /** Portfolio single item 1 ************ model Start ************ */
+    .portfolio_model_dialog, .c_model_dialog {
+        padding: 0;
+    }
+    .c_model_dialog{
+        padding: 50px 15px;
+    }
+    .modal_text_wrap h1 {
+        font-size: 26px;
+    }
+    .w_100{
+        width: 100% !important;
+    }
+    .model_cross {
+        position: absolute;
+        left: 89%;
+        bottom: 100.3%;
+        padding: 6px;
+    }
+    .prtfolio_model_cross {
+        position: absolute;
+        left: 85%;
+        bottom: 95%;
+    }
+    /** Portfolio single item 1 ************ model End ************ */
+
+    /** Contact with *** contact form */
+    .contact_text_wrap p {
+        font-size: 14px;
+    }
+    .c_form_control {
+        padding: 7px 9px;
+    }
+    .c_textarea {
+        min-height: 130px;
+    }
+    .contact_form_wrap{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    /** Resume */
+    .c_resume{
+        margin-bottom: 0;
+    }
+    .font_45 {
+        font-size: 20px !important;
+        margin-bottom: -10px !important;
+    }
+    .common_tittle h4{
+        margin-top: 30px;
+    }
+    .rl_tittle h1 {
+        font-size: 18px !important;
+    }
+    .c_resume li button{
+        font-size: 16px;
+        padding: 15px 0;
+    }
+    .rl_heading{
+        margin-top: 24px;
+        padding: 20px 20px;
+    }
+    .c_resume li {
+        display: contents;
+    }
+    .rl_text p {
+        font-size: 16px !important;
+        line-height: normal;        
+        padding-top: 10px;
+    }
+    .rl_great{
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+    .rl_content_wrapper {
+        padding-left: 20px;
+    }
+    .rl_heading::before{
+        left: -32px;
+        top: 60px;
+    }
+    .rl_tittle p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .rl_cv {
+        height: 385px;
+        box-shadow: 2px -2px 4px #ff8d00;
+    }
+
+
+    
+    
+    .carousel-prev-icon svg[height], .carousel-next-icon svg[height] {
+        width: 22px;
+    }
+    .carousel-prev-icon svg[height], .carousel-next-icon svg[height] {
+        height: 22px;
+    }
+    .Textimonial_heading{
+        margin: 0;
+    }
+    .Textimonial_heading::after{   
+        display: none;
+    }
+    
+    .rl_text p {
+        font-size: 17px;
+        padding-top: 10px;
+        line-height: 26px;
+    }
+
+    .rl_tittle p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .mb_md_80{
+        margin-bottom: 80px;
+    }
+    .rl_tittle::before{
+        display: none;
+    }
+    .textimonial_profile_text_p1{
+        padding-top: 14px !important;
+    }
+
+
+
+
+
+
+
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Small devices (landscape phones, 576px and up) */
+/**================================================== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    .py_70{
+        padding: 45px 0;
+    }
+    .banner_top_14{
+        padding-top: 14px !important;
+    }
+
+    /** Header start */
+    .logo{
+        max-width: 90%;
+    }
+    .c_nav_item a{
+        border-top: .1px solid transparent;
+        border-bottom: 3px solid transparent;
+    }
+    .c_nav_item {
+        margin-left: 57px;
+        padding-left: 10px;
+        border-left: 13px solid #ff8d00;
+        border-left-style: double;
+    }
+    
+    /** Back to top start */
+    .back_to_top svg {
+        height: 40px;
+        width: 40px;
+    }
+
+
+    /** Banner text */
+    .banner_text{
+        padding: 45px 0;
+    }
+    .banner_text h1 {
+        font-size: 45px;
+        padding: 17px 0;
+    }
+    .banner_text h2 {
+        font-size: 30px;
+        padding-bottom: 17px;
+    }
+    .banner_text p {
+        padding-right: 0;
+    }
+    .Banner_social {
+        margin-top: 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    .align_center{
+        text-align: center;
+    }
+
+    /** Features start */
+    .common_tittle h1{
+        font-size: 40px;
+    }
+    .features_loadMore svg{
+        width: 30px !important;
+        height: 30px !important;
+        margin-left: -5px;
+    }
+    .features_wrap svg[width]{
+        width: 40px;
+    }
+    .features_wrap svg[height]{
+        height: 40px;
+    }
+    /** Portfolio single item 1 ************ model Start ************ */
+    
+    .modal_text_wrap{
+        margin-top: 20px;
+    }
+    /** Portfolio single item 1 ************ model End ************ */
+
+    /** Contact with *** contact form */
+    .contact_form_wrap{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    /** Resume */
+    .c_resume{
+        margin-bottom: 0;
+    }
+    .font_45 {
+        font-size: 30px !important;
+        margin-bottom: -10px !important;
+    }
+    .common_tittle h4{
+        margin-top: 40px;
+    }
+    .rl_tittle h1 {
+        font-size: 24px !important;
+    }
+    .c_resume li button{
+        font-size: 16px;
+        padding: 15px 0;
+    }
+    .rl_heading{
+        margin-top: 30px;
+    }
+    .c_resume li {
+        flex: 1 1 !important;
+        display: contents;
+    }
+
+    
+    .carousel-prev-icon {
+        right: 15%;
+        top: 4%;    
+    }
+    .carousel-next-icon {
+        top: 4%;
+        right: 5%;
+    }
+    .carousel-prev-icon svg[height], .carousel-next-icon svg[height] {
+        width: 22px;
+    }
+    .carousel-prev-icon svg[height], .carousel-next-icon svg[height] {
+        height: 22px;
+    }
+    .Textimonial_heading{
+        margin: 0;
+    }
+    .Textimonial_heading::after{   
+        display: none;
+    }
+    
+    .rl_text p {
+        font-size: 17px;
+        padding-top: 10px;
+        line-height: 26px;
+        min-height: 100px
+    }
+
+    .rl_tittle p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .mb_md_80{
+        margin-bottom: 80px;
+    }
+    .rl_tittle::before{
+        display: none;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Medium devices (tablets, 768px and up) */
+/**================================================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .py_70{
+        padding: 55px 0;
+    }
+    .banner_top_14{
+        padding-top: 14px !important;
+    }
+
+    /** Header start */
+    .logo{
+        max-width: 90%;
+    }
+    
+    .c_nav_item a{
+        border-top: .1px solid transparent;
+        border-bottom: 3px solid transparent;
+    }
+    .c_nav_item {
+        margin-left: 57px;
+        padding-left: 10px;
+        border-left: 13px solid #ff8d00;
+        border-left-style: double;
+    }
+    
+    /** Back to top start */
+    .back_to_top svg {
+        height: 40px;
+        width: 40px;
+    }
+
+    /** Banner text */
+    .banner_text{
+        padding: 55px 0;
+    }
+    .banner_text h1 {
+        font-size: 62px;
+        padding: 17px 0;
+    }
+    .banner_text h2 {
+        font-size: 42px;
+        padding-bottom: 17px;
+    }
+    .banner_text p {
+        padding-right: 0;
+    }
+    .Banner_social {
+        margin-top: 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    .align_center{
+        text-align: center;
+    }
+
+    /** Features start */
+    .common_tittle h1{
+        font-size: 40px;
+    }
+    .features_loadMore svg{
+        width: 30px !important;
+        height: 30px !important;
+        margin-left: -5px;
+    }
+    .features_wrap svg[width]{
+        width: 40px;
+    }
+    .features_wrap svg[height]{
+        height: 40px;
+    }
+     /** Portfolio single item 1 ************ model Start ************ */
+     .scroll_screen {
+        min-height: 375px;
+    }
+    .scroll_tour img{
+        bottom: -3476px;
+    }
+    .scroll_screen img {
+        bottom: -2706px;
+    }
+    .scroll_nipro img {
+        bottom: -2652px;
+    }
+    .scroll_drink img {
+        bottom: -2700px;
+    }
+    .scroll_store img {
+        bottom: -2298px;
+    }
+    .scroll_tinyone img{
+        bottom: -553px;
+    }
+    .scroll_foods img {
+        bottom: -2056px;
+    }
+    .scroll_vision img{
+        bottom: -115px;
+    }    
+    .scroll_magic img{
+        bottom: -45px;
+    }
+    /** Portfolio single item 1 ************ model End ************ */
+
+
+    /** Contact with *** contact form */
+    .contact_form_wrap{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    /** Resume */
+    .c_resume{
+        margin-bottom: 0;
+    }
+    .font_45 {
+        font-size: 30px !important;
+        margin-bottom: -10px !important;
+    }
+    .common_tittle h4{
+        margin-top: 40px;
+    }
+    .rl_tittle h1 {
+        font-size: 24px !important;
+    }
+    .c_resume li button{
+        font-size: 16px;
+        padding: 15px 0;
+    }
+    .rl_heading{
+        margin-top: 30px;
+    }
+    .r_cv_d {
+        top: -15px;
+        left: 87%;
+    }
+    /** Resume - testimonial */
+    .carousel-prev-icon {
+        right: 15%;
+        top: 4%;    
+    }
+    .carousel-next-icon {
+        top: 4%;
+        right: 5%;
+    }
+    .carousel-prev-icon svg[height], .carousel-next-icon svg[height] {
+        width: 22px;
+    }
+    .carousel-prev-icon svg[height], .carousel-next-icon svg[height] {
+        height: 22px;
+    }
+    .Textimonial_heading{
+        margin: 0;
+    }
+    .Textimonial_heading::after{   
+        display: none;
+    }
+    
+    .rl_text p {
+        font-size: 17px;
+        padding-top: 10px;
+        line-height: 26px;
+        min-height: 100px
+    }
+
+    .rl_tittle p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .mb_md_80{
+        margin-bottom: 80px;
+    }
+    .rl_tittle::before{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Large devices (desktops, 992px and up) */
+/**================================================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /** Banner text */
+    .banner_text h1 {
+        font-size: 44px;
+        padding: 20px 0;
+    }
+    .banner_text h2 {
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+    .banner_text{
+        padding: 25px 0;
+    }
+    .banner_social{
+        margin: 0;
+        margin-top: 30px;
+    }
+    /** Portfolio single item 1 ************ model Start ************ */
+
+    .scroll_screen {
+        min-height: 375px;
+    }
+    .scroll_screen img {
+        bottom: -1729px;
+    }
+    .scroll_nipro img{
+        bottom: -1691px;
+    }
+    .scroll_drink img {
+        bottom: -1726px;
+    }
+    .scroll_store img {
+        bottom: -1452px;
+    }
+    .scroll_tinyone img{
+        bottom: -260px;
+    }
+    .scroll_foods img{
+        bottom: -1286px;
+    }
+    /** Portfolio single item 1 ************ model End ************ */
+
+    /** Resume */
+    .font_45 {
+        font-size: 36px !important;
+    }
+    .rl_tittle h1 {
+        font-size: 24px !important;
+    }
+    /** Resume _ testimonial */
+    .rl_text p {
+        font-size: 17px;
+        padding-top: 10px;
+        line-height: 26px;
+        min-height: 116px;
+    }
+
+    .rl_tittle p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .c_nav_item {
+        padding-right:  0px !important;
+    }
+
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Extra Large devices (desktops, 1200px and up) */
+/**================================================== */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+.container{
+    max-width: 1310px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Extra extra large devices (large desktops, 1400px and up) */
+/**========================================================= */
+@media (min-width: 1400px) {
+    
+.container{
+    max-width: 1310px;
+}
+
+}
